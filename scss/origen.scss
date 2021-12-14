@@ -5,7 +5,6 @@ body {
   }
   
   /* CARRUSEL */
-  
   .carousel {
     margin-bottom: 4rem;
   }
@@ -15,10 +14,10 @@ body {
     z-index: 10;
   }
   
-  
   .carousel-item {
     height: 32rem;
   }
+  
   .carousel-item > img {
     position: absolute;
     top: 0;
@@ -27,12 +26,12 @@ body {
     height: 32rem;
   }
   
-  
   /* CENTRADO */
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
   }
+  
   .marketing h2 {
     font-weight: 400;
   }
@@ -42,10 +41,7 @@ body {
     margin-left: .75rem;
   }
   
-  
-  
   /* Featurettes */
-  
   .featurette-divider {
     margin: 5rem 0;
   }
@@ -56,17 +52,13 @@ body {
     letter-spacing: -.05rem;
   }
   
-  
   /* RESPONSIVE CSS */
-  
   @media (min-width: 40em) {
-    
     .carousel-caption p {
       margin-bottom: 1.25rem;
       font-size: 1.25rem;
       line-height: 1.4;
     }
-  
     .featurette-heading {
       font-size: 50px;
     }
@@ -77,4 +69,3 @@ body {
       margin-top: 7rem;
     }
   }
-  
